@@ -1,0 +1,116 @@
+body, h1, h2, p{
+    margin: 0;
+}
+.main-div{
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 45px;
+}
+#logo_FB{
+    font-size: 48px;
+    color: #0866ff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding: 15px 0px;
+}
+.signup-form{
+    background-color: #fff;
+    width: 380px;
+    border-radius: 8px;  
+}
+.form-heading{
+    text-align: center;
+    padding: 10px; 
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;    
+}
+.form-heading, h2{
+    padding-bottom: 3.5px;
+}
+.input-fields{
+    padding: 8px;
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+input, select{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.half-width{
+    width: 48%;
+    display: flex;
+}
+.full-width{
+width: 100%;
+display: flex;
+}
+label{
+    color: #606770;
+    font-size: 12px;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.dob-div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.quad-width{
+    width: 31.5%;
+    display: flex;
+    
+}
+.radio-btn{
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.radio-label{
+    padding-bottom: 0;
+}
+.radio-input{
+    margin: 0;
+    width: auto;
+}
+small{
+    color: #777;
+    font-size: 11px;
+    margin-top: 11px;
+}
+.learnmore{
+    text-decoration: none;
+}
+.signbtn-div {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.signup-btn{
+    border: 0;
+    background-color: #00a400;
+    color: white;
+    padding: 5px 50px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.account-div{
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}

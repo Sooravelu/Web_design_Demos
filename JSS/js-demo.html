@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body>
+    <div>
+        <input type="text" id="value"/>
+        <button onclick="getInput()">Get Input</button>
+        <h3 id="display" > 
+
+        </h3>
+    </div>
+</body>
+<script>
+    function getInput(){
+        var userinput = document.getElementById('value').value;
+        document.getElementById('display').innerHTML = userinput;
+        if(userinput ==="Namo")
+        alert(userinput);
+    }
+</script>
+</html>
